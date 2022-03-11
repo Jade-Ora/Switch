@@ -54,6 +54,9 @@ body {
 }
 .description__details {
   text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 header {
   background-color: rgb(255, 22, 22);
