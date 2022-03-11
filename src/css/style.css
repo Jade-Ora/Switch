@@ -8,10 +8,62 @@ img {
 }
 body {
   max-width: 100vw;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-weight: Bold;
+}
+.presentation {
+  background-image: url("../img/affiche_switch.webp");
+  background-size: 100vw;
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 .presentation__title {
-  float: right;
+  align-self: flex-end;
+  text-align: center;
 }
-.presentation__image {
-  width: 100vw;
+.description__button {
+  background-color: rgb(255, 22, 22);
+  border-radius: 1.5rem;
+  border: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Anton", sans-serif;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-weight: Bold;
+  width: 95vw;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description__details {
+  background-color: rgb(255, 22, 22);
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.description__title {
+  text-align: center;
+  padding: 1rem;
+}
+.description__details {
+  text-align: justify;
+}
+header {
+  background-color: rgb(255, 22, 22);
+
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and(max-width:500px) {
+  header {
+    background-color: green;
+  }
 }
