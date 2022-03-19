@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.scss" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap"
       rel="stylesheet"
@@ -14,28 +14,51 @@
   </head>
   <body>
     <header>
-      <img src="./img/logo_test.webp" />
-      <img src="./img/switch_logo_test.webp" />
+      <img src="./img/logo_test.webp" alt="logo Nintendo" />
+      <img src="./img/switch_logo_test.webp" alt="logo Switch" />
     </header>
     <section class="presentation">
-      <p class="presentation__title">
+      <h1 class="presentation__title">
         Nintendo <br />
         Switch
-      </p>
-      <p class="presentation__price">299.99€</p>
+      </h1>
+
+      <div class="presentation__details">
+        <p class="presentation__price">299.99€</p>
+        <button class="presentation__button">
+          Acheter maintenant <img src="./img/arrow.webp" />
+        </button>
+      </div>
     </section>
     <section class="description">
-      <button class="description__button">
+      <button class="descritpion__button">
         Acheter maintenant <img src="./img/arrow.webp" />
       </button>
-      <div class="description__details">
-        <img src="./img/people_playing.webp" />
-        <h1 class="description__title">Trois modes en un</h1>
-        <p class="description__details">
-          La console Nintendo Switch est créée pour convenir à votre style de
-          vie, se transformant d'une console de salon à une console portable en
-          un clin d'œil.
-        </p>
+      <div class="description__mode">
+        <div class="description__details">
+          <img src="./img/people_playing.webp" alt="femme avec switch" />
+          <h2 class="description__title">Trois modes en un</h2>
+          <p class="description__texte">
+            La console Nintendo Switch est créée pour convenir à votre style de
+            vie, se transformant d'une console de salon à une console portable
+            en un clin d'œil.
+          </p>
+        </div>
+        <div class="description__details">
+          <img src="./img/mode-television.webp" alt="femme avec switch" />
+          <h2 class="description__title">Mode téléviseur</h2>
+          <p class="description__texte">
+            Placez la console dans la station d’accueil pour profiter des jeux
+            en HD sur votre téléviseur.
+          </p>
+        </div>
+        <div class="description__details">
+          <img src="./img/mode-portable.webp" alt="femme avec switch" />
+          <h2 class="description__title">Mode portable</h2>
+          <p class="description__texte">
+            Jouez avec les manettes Joy‑Con™ attachées.
+          </p>
+        </div>
       </div>
     </section>
   </body>

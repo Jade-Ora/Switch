@@ -1,0 +1,48 @@
+.presentation {
+  background-image: url("../img/affiche_switch.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.5rem;
+  @media (min-width: 900px) {
+    height: calc(100vh - 10rem);
+    padding: 5rem;
+    font-size: 5rem;
+  }
+}
+.presentation__details {
+  @media (min-width: 900px) {
+    text-align: center;
+    width: 25vw;
+  }
+}
+.presentation__button {
+  display: none;
+  @media (min-width: 900px) {
+    font-size: 5rem;
+    height: 15rem;
+    width: 25vw;
+
+    background-color: rgb(255, 22, 22);
+    border-radius: 1.5rem;
+    border: 0;
+    color: white;
+
+    font-family: "Anton", sans-serif;
+
+    font-weight: Bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.presentation__title {
+  align-self: flex-end;
+  text-align: center;
+}
