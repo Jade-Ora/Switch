@@ -1,15 +1,14 @@
 .description__mode {
   @media (min-width: 900px) {
     display: flex;
+    justify-content: space-around;
   }
 }
 .description__details {
   background-color: rgb(255, 22, 22);
   padding: 0.5rem;
   margin: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 30vw;
 }
 .description__title {
   text-align: center;
